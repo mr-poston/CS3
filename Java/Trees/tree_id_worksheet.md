@@ -97,7 +97,7 @@ graph TD
 - Which nodes are leaves? ________________________
 - What is the depth? ________
 
-<div style="page-break-after: always;"></div>
+
 
 # 🛑 TEACHER ANSWER KEY 🛑
 
