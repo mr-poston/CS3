@@ -1,7 +1,8 @@
 # Data Structures: Tree Identification Worksheet
 Name: ___________________________  Date: ________________
 
-Instructions: Carefully examine each of the 5 diagrams below. For each diagram, answer the following four questions:
+**Instructions:** Carefully examine each of the 5 diagrams below. For each diagram, answer the following four questions:
+
 1. Is it a tree? (Yes / No)
 2. Is it a binary tree? (Yes / No)
 3. Which nodes are leaves? (List their letters, or write "N/A" if not applicable)
@@ -20,7 +21,7 @@ graph TD
     C((C)) --> H((H))
 ```
 
-Questions:
+**Questions:**
 
 - Is it a tree? ________
 - Is it a binary tree? ________
@@ -38,7 +39,7 @@ graph TD
     C((C)) --> F((F))
 ```
 
-Questions:
+**Questions:**
 
 - Is it a tree? ________
 - Is it a binary tree? ________
@@ -55,7 +56,7 @@ graph TD
     D((D)) --> E((E))
 ```
 
-Questions:
+**Questions:**
 
 - Is it a tree? ________
 - Is it a binary tree? ________
@@ -73,7 +74,7 @@ graph TD
     D((D)) --> A((A))
 ```
 
-Questions:
+**Questions:**
 
 - Is it a tree? ________
 - Is it a binary tree? ________
@@ -90,7 +91,7 @@ graph TD
     C((C)) --> D((D))
 ```
 
-Questions:
+**Questions:**
 - Is it a tree? ________
 - Is it a binary tree? ________
 - Which nodes are leaves? ________________________
@@ -98,28 +99,33 @@ Questions:
 
 
 
-🛑 TEACHER ANSWER KEY 🛑
-Diagram 1 (General Tree)
+# 🛑 TEACHER ANSWER KEY 🛑
+
+**Diagram 1 (General Tree)**
 - Is it a tree? Yes
 - Is it a binary tree? No (Nodes A and C have 3 children, exceeding the maximum of 2).
 - Which nodes are leaves? D, E, F, G, H (They have no children).
 - What is the depth? 2 (A is 0; B,C,D are 1; E,F,G,H are 2).
-Diagram 2 (Binary Tree)
+
+**Diagram 2 (Binary Tree)**
 - Is it a tree? Yes
 - Is it a binary tree? Yes (Every node has at most 2 children).
 - Which nodes are leaves? D, E, F
 - What is the depth? 2
-Diagram 3 (Linear List / Degenerate Tree)
+
+**Diagram 3 (Linear List / Degenerate Tree)**
 - Is it a tree? Yes
 - Is it a binary tree? Yes (Every node has at most 1 child, which safely satisfies the "at most 2" rule).
 - Which nodes are leaves? E
 - What is the depth? 4
-Diagram 4 (Cyclic Graph / Loop)
+
+**Diagram 4 (Cyclic Graph / Loop)**
 - Is it a tree? No (It contains a cycle/loop: D points back to A, and D has two parents).
 - Is it a binary tree? No (N/A)
 - Which nodes are leaves? N/A (Because of the loop, the standard definition of tree leaves doesn't apply cleanly, though technically no node lacks an outgoing edge).
 - What is the depth? N/A (Infinite/Undefined due to the cycle).
-Diagram 5 (Directed Acyclic Graph / DAG)
+
+**Diagram 5 (Directed Acyclic Graph / DAG)**
 - Is it a tree? No (Node D has two parents: B and C. In a valid tree, every node except the root must have exactly one parent).
 - Is it a binary tree? No (N/A)
 - Which nodes are leaves? N/A (Not a tree, but D has no outgoing edges).
