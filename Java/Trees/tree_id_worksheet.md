@@ -8,6 +8,13 @@ Name: ___________________________  Date: ________________
 3. Which nodes are leaves? (List their letters, or write "N/A" if not applicable)
 4. What is the depth of the tree? (Assume the root is at depth 0. Write "N/A" if not applicable)
 
+## Diagram 0
+
+```mermaid
+graph TD;
+A((A))
+```
+
 ## Diagram 1
 
 ```mermaid
